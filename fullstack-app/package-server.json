@@ -1,0 +1,18 @@
+{
+  "name": "agribankchain-server",
+  "version": "1.0.0",
+  "description": "REST API Server for AgriBankChain",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fabric-network": "^2.2.0",
+    "fabric-ca-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
